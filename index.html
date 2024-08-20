@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cost Estimator App</title>
+</head>
+<body>
+    <h1 class="header">Estimate Your Cost</h1>
+    <div class="container">
+        <nav class="nav-bar">
+            <ul class="nav-list">
+                <li class="list-item ">FREE</li>
+                <li class="list-item active">TEAM</li>
+                <li class="list-item">PROFESSIONAL</li>
+                <li class="list-item">ENTERPRICE</li>
+            </ul>
+        </nav>
+        <div class="mid-container">
+            <div class="mobile-web">
+                <img src="images/icon1.png" alt="">
+                <div class="toggle-wrap">
+                    <div class="moving-div "></div>
+                    <h4 class="mobile">mobile</h4>
+                    <h4 class="webb">webb</h4>
+                </div>
+                <img src="images/icon2.png" alt="">
+            </div>
+            <div class="cost-result">
+                <h3>Monthly Sessions</h3>
+                <h1 class="result">20,000</h1>
+            </div>
+            <p class="desc">A session is a continuous period of user activity on your web app or website. Choose
+                exactly how many
+                sessions you wish to record and discard the extras.
+            </p>
+            <div class="range-wrap">
+                <input class="slider" type="range" min="0" max="100" name="range-inp">
+                <div class="color"></div>
+            </div>
+            <div class="labels">
+                <h4 class="numbers">0</h4>
+                <h4 class="numbers">1k</h4>
+                <h4 class="numbers">10k</h4>
+                <h4 class="numbers">25k</h4>
+                <h4 class="numbers">50k</h4>
+                <h4 class="numbers">250k</h4>
+                <h4 class="numbers">1m</h4>
+                <h4 class="numbers">10m</h4>
+                <h4 class="numbers">250m</h4>
+            </div>
+            <div class="card-container">
+               <div class="card" id="left">
+                <h3>MONTHLY BILLING</h3>
+                <h1>$199</h1>
+                <h3>MONTHLY</h3>
+                <p>Starting from 1-month data retention</p>
+                <p>10 team members</p>
+                <button>Try Free for 14 Days</button>
+               </div>
+               <div class="card" id="right">
+                <div class="discount">SAVE UP TO 16%</div>
+                <h3>MONTHLY BILLING</h3>
+                <h1>$2,148</h1>
+                <h3>$179 MONTHLY</h3>
+                <p>Starting from 1-month data retention</p>
+                <p>10 team members</p>
+                <button>Try Free for 14 Days</button>
+               </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
