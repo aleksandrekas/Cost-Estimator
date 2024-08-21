@@ -377,4 +377,7 @@ button{
     .nav-list li:nth-child(-n+2){
         width: 40px;
     }
+    .header{
+        width: 90%;
+    }
 }
